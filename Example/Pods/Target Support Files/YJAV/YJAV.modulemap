@@ -1,0 +1,6 @@
+framework module YJAV {
+  umbrella header "YJAV-umbrella.h"
+
+  export *
+  module * { export * }
+}

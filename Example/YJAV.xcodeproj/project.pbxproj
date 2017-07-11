@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351611231F135166002ADC06 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351611221F135166002ADC06 /* VideoViewController.swift */; };
+		3526368A1F0F5838003F03DC /* YJVideoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352636891F0F5838003F03DC /* YJVideoContainer.swift */; };
+		352D162C1F0B8BE500FCD259 /* YJAVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D162B1F0B8BE500FCD259 /* YJAVPlayer.swift */; };
+		352D162E1F0B8D9000FCD259 /* YJAVHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352D162D1F0B8D9000FCD259 /* YJAVHelper.swift */; };
+		35FC32E41F0CC09100511BFA /* YJResourceLoaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC32E31F0CC09100511BFA /* YJResourceLoaderDelegate.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +36,11 @@
 		072D250EA028ECFDEDD71660 /* Pods-YJAV_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJAV_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJAV_Tests/Pods-YJAV_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		13453C00D6DD8903BCDDDDDD /* Pods-YJAV_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJAV_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJAV_Example/Pods-YJAV_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2122CBB489D055FE0991140E /* Pods-YJAV_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJAV_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJAV_Tests/Pods-YJAV_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		351611221F135166002ADC06 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		352636891F0F5838003F03DC /* YJVideoContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJVideoContainer.swift; sourceTree = "<group>"; };
+		352D162B1F0B8BE500FCD259 /* YJAVPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJAVPlayer.swift; sourceTree = "<group>"; };
+		352D162D1F0B8D9000FCD259 /* YJAVHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJAVHelper.swift; sourceTree = "<group>"; };
+		35FC32E31F0CC09100511BFA /* YJResourceLoaderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJResourceLoaderDelegate.swift; sourceTree = "<group>"; };
 		372656CAAC30A5863A9C8F46 /* Pods_YJAV_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJAV_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38633BE7B77097014787F7F5 /* Pods-YJAV_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJAV_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJAV_Example/Pods-YJAV_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YJAV_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJAV_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +54,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		AE9DC076B8F1734A1ED3294B /* Pods_YJAV_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJAV_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8906C347424073A822D7F93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CA4F0291E60F0833A2EC23BB /* YJAV.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YJAV.podspec; path = ../YJAV.podspec; sourceTree = "<group>"; };
-		CDBD27D63A56FE90D233AEC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B8906C347424073A822D7F93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CA4F0291E60F0833A2EC23BB /* YJAV.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJAV.podspec; path = ../YJAV.podspec; sourceTree = "<group>"; };
+		CDBD27D63A56FE90D233AEC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,11 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				351611221F135166002ADC06 /* VideoViewController.swift */,
+				352D162B1F0B8BE500FCD259 /* YJAVPlayer.swift */,
+				352636891F0F5838003F03DC /* YJVideoContainer.swift */,
+				35FC32E31F0CC09100511BFA /* YJResourceLoaderDelegate.swift */,
+				352D162D1F0B8D9000FCD259 /* YJAVHelper.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -362,7 +377,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				351611231F135166002ADC06 /* VideoViewController.swift in Sources */,
+				35FC32E41F0CC09100511BFA /* YJResourceLoaderDelegate.swift in Sources */,
+				352D162E1F0B8D9000FCD259 /* YJAVHelper.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				3526368A1F0F5838003F03DC /* YJVideoContainer.swift in Sources */,
+				352D162C1F0B8BE500FCD259 /* YJAVPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

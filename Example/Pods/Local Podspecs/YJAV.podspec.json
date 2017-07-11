@@ -1,0 +1,22 @@
+{
+  "name": "YJAV",
+  "version": "0.1.0",
+  "summary": "A short description of YJAV.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Zyj163.com/YJAV",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Zyj163.com": "zyj194250@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Zyj163.com/YJAV.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YJAV/Classes/**/*"
+}

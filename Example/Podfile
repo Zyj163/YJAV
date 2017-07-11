@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'YJAV_Example' do
   pod 'YJAV', :path => '../'
-
+  pod 'YJDownloader'
   target 'YJAV_Tests' do
     inherit! :search_paths
 

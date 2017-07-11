@@ -1,0 +1,22 @@
+PODS:
+  - CryptoSwift (0.6.9)
+  - YJAV (0.1.0)
+  - YJDownloader (0.2.1):
+    - CryptoSwift
+
+DEPENDENCIES:
+  - YJAV (from `../`)
+  - YJDownloader
+
+EXTERNAL SOURCES:
+  YJAV:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CryptoSwift: a22f6ba238e9ce4d26ee7bf45b9ed82e7122d4a0
+  YJAV: a38318dd46944739ab3f75d8f65ec7a822464c38
+  YJDownloader: a029caf61b1db0a62913b1bc01a413ed7f964d65
+
+PODFILE CHECKSUM: 37025a5efae29b1d9a90fcd26c93746980fe69e8
+
+COCOAPODS: 1.2.1
